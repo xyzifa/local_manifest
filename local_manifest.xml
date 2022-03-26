@@ -15,6 +15,6 @@
         <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="xyzifa" revision="lineage-18.1" clone-depth="1" />
 
 <!--Patches-->
-		<remove-project name="PixelExperience/build" />
-        <project path="build/make" name="build" remote="xyzifa" revision="eleven" clone-depth="1" />
+		<remove-project name="ArrowOS/android_build" />
+        <project path="build/make" name="build" remote="xyzifa" revision="arrow-11.0" clone-depth="1" />
 </manifest
