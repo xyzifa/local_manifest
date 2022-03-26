@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="xyzifa"
+                fetch="https://github.com/xyzifa" />
+
+<!-- Trees -->
+        <project path="device/realme/RMX1821" name="device_realme_RMX1821" remote="xyzifa" revision="eleven" clone-depth="1" />
+        <project path="vendor/realme/RMX1821" name="vendor_realme_RMX1821" remote="xyzifa" revision="lineage-18.1-rmui" clone-depth="1" />
+        <project path="kernel/realme/RMX1821" name="kernel_realme_RMX1821" remote="xyzifa" revision="lineage-18.1-rmui" clone-depth="1" />
+
+<!--Dependencies-->
+        <project path="packages/apps/RealmeParts" name="packages_apps_RealmeParts" remote="xyzifa" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="xyzifa" revision="lineage-18.1" clone-depth="1" />
+        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="xyzifa" revision="lineage-18.1" clone-depth="1" />
+
+<!--Patches-->
+		<remove-project name="PixelExperience/build" />
+        <project path="build/make" name="build" remote="xyzifa" revision="eleven" clone-depth="1" />
+</manifest
