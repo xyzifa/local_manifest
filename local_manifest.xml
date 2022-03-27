@@ -5,16 +5,15 @@
                 fetch="https://github.com/xyzifa" />
 
 <!-- Trees -->
-        <project path="device/realme/RMX1821" name="device_realme_RMX1821" remote="xyzifa" revision="eleven" clone-depth="1" />
-        <project path="vendor/realme/RMX1821" name="vendor_realme_RMX1821" remote="xyzifa" revision="lineage-18.1-rmui" clone-depth="1" />
-        <project path="kernel/realme/RMX1821" name="kernel_realme_RMX1821" remote="xyzifa" revision="lineage-18.1-rmui" clone-depth="1" />
+        <project path="device/realme/RMX1821" name="device_realme_RMX1821" remote="xyzifa" revision="aosp-12" clone-depth="1" />
+        <project path="vendor/realme/RMX1821" name="vendor_realme_RMX1821" remote="xyzifa" revision="lineage-19.0-rmui" clone-depth="1" />
+        <project path="kernel/realme/RMX1821" name="android_kernel_realme_RMX1821" remote="xyzifa" revision="Rebase" clone-depth="1" />
 
 <!--Dependencies-->
-        <project path="packages/apps/RealmeParts" name="packages_apps_RealmeParts" remote="xyzifa" revision="lineage-18.1" clone-depth="1" />
-        <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="xyzifa" revision="lineage-18.1" clone-depth="1" />
-        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="xyzifa" revision="lineage-18.1" clone-depth="1" />
+        <project path="packages/apps/RealmeParts" name="packages_apps_RealmeParts" remote="xyzifa" revision="aosp12" clone-depth="1" />
+        <project path="vendor/mediatek-ims" name="vendor/mediatek-ims" remote="xyzifa" revision="lineage-18.1" clone-depth="1" />
 
 <!--Patches-->
-		<remove-project name="ArrowOS/android_build" />
-        <project path="build/make" name="build" remote="xyzifa" revision="arrow-11.0" clone-depth="1" />
+		<remove-project name="Evolution-X/build" />
+        <project path="build/make" name="build" remote="xyzifa" revision="snow" clone-depth="1" />
 </manifest
